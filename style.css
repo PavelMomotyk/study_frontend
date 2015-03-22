@@ -37,8 +37,7 @@ blockquote, q {
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-    content: ' ';
-    content: none;
+
 }
 table {
     border-collapse: collapse;
@@ -55,6 +54,8 @@ table {
 .header .top{
 background: #000000;
 color: #ffffff;
+
+
 }
 
 .left{
@@ -63,6 +64,7 @@ color: #ffffff;
 
 .right{
     float: right;
+
 }
 .clear{
     clear: both;
@@ -74,16 +76,23 @@ color: #ffffff;
 a{
     text-decoration: none;
 }
+
+.header{
+text-align: center;
+}
+
 .header .top {
     background: #000000;
 
-    padding: 30px 10px;
+    padding: 30px 15px 40px 15px;
+
 
 }
 
 .header .top li{
     float: left;
     margin-right: 15px;
+
 }
 
 
@@ -99,5 +108,71 @@ a{
 
 .header .top li a{
     text-decoration: none;
+}
+
+.page{
+
+    margin: auto;
+    text-align: center;
+}
+.page .head-logo{
+    width: 960px;
+    margin: 0px;
+
+}
+
+.head-logo{
+    display: inline-block;
+    position: relative;
+    height: 75px;
+
+    padding-top: 18px;
+    padding-left: 18px;
+}
+
+.language{
+    width: 170px;
+    height: 75px;
+    float: left;
+    text-align:left;
+    padding-top: 20px;
+}
+
+.account{
+    display: inline-block;
+
+    width: 150px;
+    height: 75px;
+    float: right;
+
+
+}
+.account p{
+    padding-top: 20px;
+    float: left;
+}
+
+
+.nav{
+margin-top: -30px;
+}
+
+.nav ul li{
+
+
+
+    margin-left: 10px;
+    font-size: 15px;
+    vertical-align:bottom; /* вот она */
+    display:inline-block;
+
+}
+.search-t{
+    width:60px; height: 25px; padding:0px 3px; position:relative;
+    border-style: none;
+}
+.search-b{
+    background: url("Img/search.jpg") no-repeat;
+    width: 24px; height: 25px;  border-style: none;
 }
 
