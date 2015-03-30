@@ -1,0 +1,451 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+a{
+    text-decoration: none;
+}
+
+.wrapper{
+    width:1260px;
+    margin:0 auto;
+}
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}
+.clear{
+    clear: both;
+    overflow: hidden;
+    height: 0 !important;
+    width: 0 !important;
+}
+.midle{
+    height: 90px;
+}
+.bot{
+    height: 70px;
+}
+.header .top {
+    background: black;
+    color: white;
+    padding: 30px 20px;
+}
+.header .top li{
+    float: left;
+    margin-right: 15px;
+    font-weight:bold;
+    text-transform: uppercase;
+}
+
+.sector1{
+    float: left;
+    width: 25%;
+    height: 85px;
+
+  }
+.sector1 p{
+    margin-top: 25px;
+}
+.sector2{
+      float: left;
+    width: 50%;
+    text-align: center;
+  }
+.sector3{
+    float:  right;
+    width: 25%;
+    text-align: right;
+    height: 85px;
+      }
+.header .bot li{
+    float: left;
+    margin-right: 15px;
+    font-weight:bold;
+    text-transform: uppercase;
+    height: 44px;
+    padding-top: 26px;
+}
+#gift{
+    padding: 0px;
+}
+#search{
+    padding-top: 18px;
+    color: gray;
+    font-size: 12px;  
+}
+.dropdown{
+        margin-left: 18%;
+}
+
+.dropdown-inside li{
+    padding-top: 0px !important;
+    width: 875px;
+    padding-left: 10px;
+}
+ul.dropdown li { position: relative; }
+
+ul.dropdown-inside {
+    position: absolute;
+    display: none;
+    margin-top: 10px;
+    background: white;
+    z-index: 2;
+}
+
+.top  a:visited{
+    color:white;
+}
+.top  a{
+    color:white;
+}
+.block1 a:visited{
+    color:black;
+}
+.sector3 a:visited{
+    color:black;
+}
+.bot a:visited{
+    color:black;
+}
+
+.man1{
+    float: right !important;
+    margin-left: 150px !important;
+    position: absolute !important;
+    width: 364px;
+    height: 342px;
+}
+.man2{
+    float: right !important;
+    margin-left: 514px;
+    position: absolute !important;
+}
+
+.block{
+    position: absolute;
+        z-index: 3;
+    display: none;
+}
+.block1{
+    position: absolute;
+    border: 1px solid rgba(171, 165, 165, 0.34);
+    margin-top: -14px;
+    z-index:  -1;
+    margin-left: -5px;
+    padding: 10px;
+    width: 360px;
+    background: white;
+}
+.block1 img{
+    float: right;
+}
+.block2{
+    z-index: 1;
+    float: right;
+    margin-top: 15px;
+    position: relative;
+    display: none;
+}
+.block2 img{
+    margin-top: -12px;
+    margin-left: 285px;
+}
+.block3{
+    position: absolute;
+    border: 1px solid rgba(171, 165, 165, 0.34);
+    margin-top: -14px;
+    z-index:  -1;
+    margin-left: -5px;
+    padding: 10px;
+    width: 360px;
+    background: white;
+    text-align: left;
+
+}
+.block3 img{
+    float: left;
+    margin-left: 10px;
+    padding: 2px;
+}
+
+.footer{
+    background-color: #000;
+    height: 430px;
+    padding: 10px;
+    width: 1240px;
+
+}
+.footermenu li{
+    float: left;
+    margin-left: 50px;
+    text-align: center;
+}
+.footermenu a{
+    color:gray;
+    }
+
+.bottom li{
+    float: left;
+    margin-left: 25px;
+}
+.bottom a {
+    color: gray;
+}
+
+.bottom ul{
+    margin-left: 115px;
+}
+.tabletd{
+    float: left;
+    padding-left: 25px;
+    width: 150px;
+    margin-bottom: 10px;
+}
+.tabletd1{
+    float: left;
+    padding-left: 25px;
+    width: 85px;
+}
+.tablename{
+    font-weight: bold;
+}
+.oldprice{
+    text-decoration: line-through;
+    float: left;
+}
+.newprice{
+    font-weight: bold;
+    color: red;
+    float:right;
+    margin-left: 10px;
+}
+.tablebutton{
+    background: #000000;
+    color: white;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+}
+.fot1{
+    float:left;
+    }
+.fot2{
+    margin-left: -25px;
+}
+.fot3{
+   margin-left: -40px;
+}
+.fbot{
+    height: 25px;
+    margin-left: 230px;
+    padding: 10px;
+        }
+.fbot li{
+    float: left;
+    margin-left: 40px;
+    color: gray;
+}
+
+.fbot li a{
+        color: gray;
+}
+.logobot{
+    text-align: center;
+    width: 1250px;
+}
+.bottom{
+    height: 25px;
+    border-bottom: 1px solid gray;
+}
+.product1{
+    width: 210px;
+    text-align: center;
+    height: 260px;
+    float:left;
+    margin-left: 85px;
+}
+.product{
+    height: 550px;
+}
+.product1 img{
+    height: 200px;
+
+}
+.activemenu a{
+    font-size: 18px;
+}
+
+.dropdown li a:hover{
+    border-bottom: 5px solid #F00;
+    border-radius: 12em 0.5em/ 1em 1.5em;
+}
+.iconleft{
+    float: left;
+    margin-left: 120px;
+}
+.iconright{
+    float: left;
+
+}
+.xlogo{
+    margin-top: 0px !important;
+    cursor: pointer;
+}
+.iconright li{
+    float: left;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.icontop{
+    height:122px;
+    background: black;
+    display: none;
+}
+.FolowUs{
+    cursor: pointer;
+}
+
+
+
+
+
+
+.input-box{
+    width: 100px;
+    margin:3px auto ;
+
+}
+
+input[type="checkbox"].css-checkbox + label.css-label {
+    padding-left:20px;
+    height:15px;
+    display:inline-block;
+    line-height:15px;
+    font-size:15px;
+    vertical-align:middle;
+    cursor:pointer;
+    background: url("../images/checkbox-unchecked.png") 0 0 no-repeat;
+}
+label.css-label {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+input[type="checkbox"].css-checkbox.checked + label.css-label {
+    background: url("../images/checkbox-checked.png") 0 13px no-repeat;
+}
+input[type="checkbox"].css-checkbox:checked + label.css-label {
+    background: url("../images/checkbox-checked.png") 0 0 no-repeat;
+}
+
+input[type="checkbox"].css-checkbox,input[type="radio"].css-checkbox {
+    display: inline-block;
+    opacity: 0 !important;
+    width: 0 !important;
+    height: 0 !important;
+    border:0 !important;
+    line-height: 0 !important;
+    overflow: hidden;
+    position: absolute;
+    left: -20px;
+    /*   for ie8   */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+}
+
+
+
+input[type="radio"].css-checkbox + label.css-label {
+    padding-left:24px;
+    display:inline-block;
+    cursor:pointer;
+    background: url("../images/radio-uncheked.png") 0 -3px no-repeat;
+    font-family: "Open Sans",sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+label.css-label {
+    background:url("../images/radio-uncheked.png") 0 -3px no-repeat;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+input[type="radio"].css-checkbox.checked + label.css-label {
+    background: url("../images/radio-cheked.png") 0 -3px no-repeat;
+}
+input[type="radio"].css-checkbox:checked + label.css-label {
+    background: url("../images/radio-cheked.png") 0 -3px no-repeat;
+}
+
+
+#popupWrapper{
+
+    position: fixed;
+
+    top: 0;
+
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background: rgba(150,150,132, 0.29);
+    z-index: 9999;
+  display: none;
+
+
+}
+
+#popupWrapper .content{
+    width: 250px;
+    height: 250px;
+    background: #ffffff;
+    margin: 400px auto;
+}

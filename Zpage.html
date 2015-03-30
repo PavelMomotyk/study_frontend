@@ -4,19 +4,19 @@
     <meta charset="UTF-8">
     <title></title>
     <link rel="stylesheet" href="css/styles.css">
-    <script src="js/jquery.js"></script>
-    <script src="js/scripts.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-    <script src="js/jquery.bxslider.min.js"></script>
-    <link rel="stylesheet" href="css/jquery.bxslider.css">
+    <link rel="stylesheet" href="css/dd.css"/>
 
+    <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>-->
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.dd.min.js"></script>
+    <script src="js/scripts.js"></script>
 </head>
 <body>
 <div class="wrapper">
     <div class="header">
         <div class="top">
             <ul class="left top-href">
-                <li><a href="ShopOnline.html">Shop online</a></li>
+                <li><a href="#">Shop online</a></li>
                 <li>Fashion show</li>
                 <li>Side</li>
                 <li>Other website</li>
@@ -125,50 +125,104 @@
         </div>
     </div>
     <div class="content">
-        <ul class="bxslider">
-            <li><img src="images/43-les-berezy-oboi-priroda-800x600.jpg" /></li>
-            <li><img src="images/2426_1.jpg" /></li>
-            <li><img src="images/1264364935_05enuzecyodwkph.jpeg" /></li>
-        </ul>
+
+        <a href="#" id="clickMe">Click me</a>
+        <div id="popupWrapper">
+        <div class="content">
+            <a href="#" id="close">close</a>
+            <p>Welcome to ours site!!!</p>
+        </div>
+        </div>
+
+        <form action="#" method="post" >
+            <div class="input-box">
+            <label for="login" class="css-label">login</label>
+            <input type="text" name="login" id="login"/>
+                <div class="validation"></div>
+            </div>
+
+            <div class="input-box">
+                <label for="pass" class="css-label">password</label>
+                <input type="password" name="pass" id="pass"/>
+
+            </div>
+            <div class="input-box">
+                <input type="checkbox"  class="css-checkbox" name="women" id="women" value="women"/>
+                <label for="women" class="css-label">women</label>
+
+                <input type="checkbox" class="css-checkbox" name="man" id="man" value="man"/>
+                <label for="man" class="css-label">man</label>
+
+            </div>
+            <div class="input-box">
+                <input type="radio" class="css-checkbox" name="music" id="films" value="films"/>
+                <label for="films" class="css-label">Films</label>
+
+                <input type="radio" class="css-checkbox" name="music" id="music" value="music"/>
+                <label for="music" class="css-label">music</label>
+
+                <input type="radio" class="css-checkbox" name="music" id="usic" value="photo"/>
+                <label for="photo" class="css-label" class="css-label">Photo</label>
+
+            </div>
+    <div class="input-box">
+        <label for="sex" class="css-label">Your sex</label>
+        <select name="sex" id="sex" >
+            <option value="mr">Mr</option>
+            <option value="mrs">Mrs</option>
+        </select>
+    </div>
+            <div class="input-box">
+                <label for="about" class="css-label">About yourself</label>
+                <textarea name="about" id="about" cols="30" rows="10"></textarea>
+            </div>
+            <div class="input-box">
+            <input type="submit" value="send"/>
+    </div>
+        </form>
+
+
+
+
+
 
     </div>
-        <div class="footer" >
-            <div class="top">
-               <ul class="footermenu">
-                   <li> <a href="#"><img src="images/footer1.png" alt=""/> <br/><p class="fot1">START AT 500$</p></a>  </li>
-                   <li> <a href="#"><img src="images/footer2.png" alt=""/> <br/><p class="fot1 fot2">SECURED PAYMENT</p></a>  </li>
-                   <li> <a href="#"><img src="images/footer3.png" alt=""/> <br/><p class="fot1 fot2">CUSTUMER SERVICE</p></a>  </li>
-                   <li> <a href="#"><img src="images/footer4.png" alt=""/> <br/><p class="fot1 fot3">FRE AND EASY RETURN</p></a>  </li>
-                   <li> <a href="#"><img src="images/footer5.png" alt=""/> <br/><p>PHONE US 01 40 03 58 44</p></a>  </li>
-                   </ul>
-            </div>
-            <div class="middle"><img src="images/line.png" alt="" style="margin-left: 160px;"/><br/>
-                <a href="#"><img src="images/footer6.png" style="margin-left: 270px;" alt=""/></a><a href="#"><img src="images/footer7.png" alt=""/></a>
-            </div>
-            <div class="bottom">
-                <ul>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">CONTACT</a></li>
-                    <li><a href="#">PRESS</a></li>
-                    <li><a href="#">THE COMPANY</a></li>
-                    <li><a href="#">RECRUTEMENT</a></li>
-                    <li><a href="#">CHANGE COUNTRY</a></li>
-                    <li><a href="#">AGNES B.BEAUTE</a></li>
-                </ul>
-            </div>
-            <div class="fbot">
-                <ul>
-                    <li><a href="#">Sells conditions</a></li>
-                    <li><a href="#">Legal terms</a></li>
-                    <li><a href="#">Site map</a></li>
-                    <li><a href="#">Copyright Agnes b.2013</a></li>
-                </ul>
-            </div>
-            <div class="logobot">
-                <img src="images/FOOTERlogo.png" alt=""/>
-            </div>
+    <div class="footer" >
+        <div class="top">
+           <ul class="footermenu">
+               <li> <a href="#"><img src="images/footer1.png" alt=""/> <br/><p class="fot1">START AT 500$</p></a>  </li>
+               <li> <a href="#"><img src="images/footer2.png" alt=""/> <br/><p class="fot1 fot2">SECURED PAYMENT</p></a>  </li>
+               <li> <a href="#"><img src="images/footer3.png" alt=""/> <br/><p class="fot1 fot2">CUSTUMER SERVICE</p></a>  </li>
+               <li> <a href="#"><img src="images/footer4.png" alt=""/> <br/><p class="fot1 fot3">FRE AND EASY RETURN</p></a>  </li>
+               <li> <a href="#"><img src="images/footer5.png" alt=""/> <br/><p>PHONE US 01 40 03 58 44</p></a>  </li>
+               </ul>
+        </div>
+        <div class="middle"><img src="images/line.png" alt="" style="margin-left: 160px;"/><br/>
+            <a href="#"><img src="images/footer6.png" style="margin-left: 270px;" alt=""/></a><a href="#"><img src="images/footer7.png" alt=""/></a>
+        </div>
+        <div class="bottom">
+            <ul>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">CONTACT</a></li>
+                <li><a href="#">PRESS</a></li>
+                <li><a href="#">THE COMPANY</a></li>
+                <li><a href="#">RECRUTEMENT</a></li>
+                <li><a href="#">CHANGE COUNTRY</a></li>
+                <li><a href="#">AGNES B.BEAUTE</a></li>
+            </ul>
+        </div>
+        <div class="fbot">
+            <ul>
+                <li><a href="#">Sells conditions</a></li>
+                <li><a href="#">Legal terms</a></li>
+                <li><a href="#">Site map</a></li>
+                <li><a href="#">Copyright Agnes b.2013</a></li>
+            </ul>
+        </div>
+        <div class="logobot">
+            <img src="images/FOOTERlogo.png" alt=""/>
         </div>
     </div>
+</div>
 </body>
-</html>
-
+</html> 
