@@ -11,7 +11,7 @@ $(document).ready(function(){
         var newVal = $(this).val().trim();
         $(this).val(newVal);
         if ($(this).val() == "" ) {
-            $(this).css({border: '1px solid red', background: '#777777', 'border-radius': '7px'})
+            $(this).css({border: '1px solid red', background: '#00FFFF', 'border-radius': '7px'})
         }
         else{
             $(this).css({border: '1px solid green', background: 'white', 'border-radius': '7px'})
@@ -64,7 +64,7 @@ $(document).ready(function(){
     });
 
     $('.dropdown-inside').mouseenter(function(){
-        $('.dropdown-inside').css('background','yellow');
+        $('.dropdown-inside').css('background','red');
     });$('.dropdown-inside').mouseleave(function(){
         $('.dropdown-inside').css('background','white');
     });
