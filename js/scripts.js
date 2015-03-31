@@ -28,17 +28,7 @@ $(document).ready(function(){
             $('#pass').val('');
             $('#pass').css({border: '1px solid red', width: '326px', height: '23px','border-radius': '7px'});}
              }});
-    $('#pass1').blur(function(){
-      var  pass2 =$(this).val();
-        if (pass1 != pass2){
-            $('#popupWrapper').show();
-            $('#pass').val('');
-            $('#pass1').val('');
-            $('#closeMe').click(function () {
-                $('#popupWrapper').hide();
-            });
-        }
-    });
+    
 
     $('#pass').focus(function(){
         $('.analiz').css('display', 'none');
