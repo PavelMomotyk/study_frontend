@@ -4,16 +4,30 @@
     <meta charset="UTF-8">
     <title></title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/jquery.bxslider.css"/>
+
     <script src="js/jquery.js"></script>
-    <script src="js/scripts.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>-->
     <script src="js/jquery.bxslider.min.js"></script>
-    <link rel="stylesheet" href="css/jquery.bxslider.css">
+    <script src="js/jquery.dd.min.js"></script>
+
+    <script src="js/scripts.js"></script>
 
 </head>
 <body>
 <div class="wrapper">
     <div class="header">
+        <div class="icontop">
+            <div class="iconleft"><img src="images/iconlogo.png" alt=""/></div>
+            <ul class="iconright">
+                <li><img src="images/flogo.png" alt=""/></li>
+                <li><img src="images/tlogo.png" alt=""/></li>
+                <li><img src="images/plogo.png" alt=""/></li>
+                <li><img src="images/vlogo.png" alt=""/></li>
+                <li><img src="images/ilogo.png" alt=""/></li>
+                <li class="xlogo"><img src="images/х.png" alt=""/></li>
+            </ul>
+        </div>
         <div class="top">
             <ul class="left top-href">
                 <li><a href="ShopOnline.html">Shop online</a></li>
@@ -24,7 +38,7 @@
             <ul class="right">
                 <li>Find a store</li>
                 <li>Newsletter</li>
-                <li>Folow us</li>
+                <li class="FolowUs">Folow us</li>
                 <li><a href="#">Radio</a></li>
             </ul>
             <div class="clear"></div>
@@ -44,7 +58,7 @@
             </div>
             </div>
             <div class="sector2"><a href="index.html"><img src="images/LOGO.png" /> </a></div>
-            <div class="sector3"><a href="#">my account<img src="images/bucket.png"/></a>
+            <div class="sector3"><a href="form.html">my account<img src="images/bucket.png"/></a>
                 <div class="block2">
                     <img src="images/rectungl.png" alt=""/>
                     <div class="block3">
@@ -91,7 +105,25 @@
         </div>
         <div class="bot">
             <ul class="dropdown">
-                <li>Woman</li>
+                <li><a href="/">Woman</a>
+                    <ul class="dropdown-inside">
+
+                <li><a href="/">New</a></li>
+                <li><a href="/">Accessories</a></li>
+                <li><a href="/">suits</a></li>
+                <li><a href="/">Jackets</a></li>
+                <li><a href="/">trousers</a></li>
+                <li><a href="/">Shirts</a></li>
+                <li><a href="/">Knitwear</a></li>
+                <li><a href="/">T-Shirts</a></li>
+                <li><a href="/">Bags</a></li>
+                <li><a href="/">Shoes</a></li>
+                <li><a href="/">Now in man</a></li>
+                <li class="man1"><img src="images/manimg1.png" alt=""/></li>
+                <li class="man2"><img src="images/manimg2.png" alt=""/></li>
+
+            </ul>
+                </li>
                 <li class="dropdown-top"><a class="dropdown-top" href="/">Man</a>
                     <ul class="dropdown-inside">
 
@@ -106,8 +138,8 @@
                         <li><a href="/">Bags</a></li>
                         <li><a href="/">Shoes</a></li>
                         <li><a href="/">Now in man</a></li>
-                         <li class="man1"><a href="#"><img src="images/manimg1.png" alt=""/></a></li>
-                          <li class="man2"><a href="#"><img src="images/manimg2.png" alt=""/></a></li>
+                         <li class="man1"><img src="images/manimg1.png" alt=""/></li>
+                          <li class="man2"><img src="images/manimg2.png" alt=""/></li>
 
                     </ul>
                 </li>
@@ -126,49 +158,47 @@
     </div>
     <div class="content">
         <ul class="bxslider">
-            <li><img src="images/43-les-berezy-oboi-priroda-800x600.jpg" /></li>
-            <li><img src="images/2426_1.jpg" /></li>
-            <li><img src="images/1264364935_05enuzecyodwkph.jpeg" /></li>
+            <li><img src="images/wpapers_ru_Черно-белые-небоскребы.jpg" /></li>
+            <li><img src="images/92516082_cherno_beluye_foto_zhivotnuyh_Wolf_Ademeit.jpg" /></li>
         </ul>
-
+        <!--- Ігор лоx --->
     </div>
-        <div class="footer" >
-            <div class="top">
-               <ul class="footermenu">
-                   <li> <a href="#"><img src="images/footer1.png" alt=""/> <br/><p class="fot1">START AT 500$</p></a>  </li>
-                   <li> <a href="#"><img src="images/footer2.png" alt=""/> <br/><p class="fot1 fot2">SECURED PAYMENT</p></a>  </li>
-                   <li> <a href="#"><img src="images/footer3.png" alt=""/> <br/><p class="fot1 fot2">CUSTUMER SERVICE</p></a>  </li>
-                   <li> <a href="#"><img src="images/footer4.png" alt=""/> <br/><p class="fot1 fot3">FRE AND EASY RETURN</p></a>  </li>
-                   <li> <a href="#"><img src="images/footer5.png" alt=""/> <br/><p>PHONE US 01 40 03 58 44</p></a>  </li>
-                   </ul>
-            </div>
-            <div class="middle"><img src="images/line.png" alt="" style="margin-left: 160px;"/><br/>
-                <a href="#"><img src="images/footer6.png" style="margin-left: 270px;" alt=""/></a><a href="#"><img src="images/footer7.png" alt=""/></a>
-            </div>
-            <div class="bottom">
-                <ul>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">CONTACT</a></li>
-                    <li><a href="#">PRESS</a></li>
-                    <li><a href="#">THE COMPANY</a></li>
-                    <li><a href="#">RECRUTEMENT</a></li>
-                    <li><a href="#">CHANGE COUNTRY</a></li>
-                    <li><a href="#">AGNES B.BEAUTE</a></li>
-                </ul>
-            </div>
-            <div class="fbot">
-                <ul>
-                    <li><a href="#">Sells conditions</a></li>
-                    <li><a href="#">Legal terms</a></li>
-                    <li><a href="#">Site map</a></li>
-                    <li><a href="#">Copyright Agnes b.2013</a></li>
-                </ul>
-            </div>
-            <div class="logobot">
-                <img src="images/FOOTERlogo.png" alt=""/>
-            </div>
+    <div class="footer" >
+        <div class="top">
+           <ul class="footermenu">
+               <li> <a href="#"><img src="images/footer1.png" alt=""/> <br/><p class="fot1">START AT 500$</p></a>  </li>
+               <li> <a href="#"><img src="images/footer2.png" alt=""/> <br/><p class="fot1 fot2">SECURED PAYMENT</p></a>  </li>
+               <li> <a href="#"><img src="images/footer3.png" alt=""/> <br/><p class="fot1 fot2">CUSTUMER SERVICE</p></a>  </li>
+               <li> <a href="#"><img src="images/footer4.png" alt=""/> <br/><p class="fot1 fot3">FRE AND EASY RETURN</p></a>  </li>
+               <li> <a href="#"><img src="images/footer5.png" alt=""/> <br/><p>PHONE US 01 40 03 58 44</p></a>  </li>
+               </ul>
+        </div>
+        <div class="middle"><img src="images/line.png" alt="" style="margin-left: 160px;"/><br/>
+            <a href="#"><img src="images/footer6.png" style="margin-left: 270px;" alt=""/></a><a href="#"><img src="images/footer7.png" alt=""/></a>
+        </div>
+        <div class="bottom">
+            <ul>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">CONTACT</a></li>
+                <li><a href="#">PRESS</a></li>
+                <li><a href="#">THE COMPANY</a></li>
+                <li><a href="#">RECRUTEMENT</a></li>
+                <li><a href="#">CHANGE COUNTRY</a></li>
+                <li><a href="#">AGNES B.BEAUTE</a></li>
+            </ul>
+        </div>
+        <div class="fbot">
+            <ul>
+                <li><a href="#">Sells conditions</a></li>
+                <li><a href="#">Legal terms</a></li>
+                <li><a href="#">Site map</a></li>
+                <li><a href="#">Copyright Agnes b.2013</a></li>
+            </ul>
+        </div>
+        <div class="logobot">
+            <img src="images/FOOTERlogo.png" alt=""/>
         </div>
     </div>
+</div>
 </body>
-</html>
-
+</html> 
