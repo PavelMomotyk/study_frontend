@@ -2,6 +2,17 @@
 $(document).ready(function(){
 
 
+
+
+
+
+
+
+
+
+
+
+
     $("select").msDropDown();
 
 
@@ -11,7 +22,7 @@ $(document).ready(function(){
         var newVal = $(this).val().trim();
         $(this).val(newVal);
         if ($(this).val() == "" ) {
-            $(this).css({border: '1px solid red', background: '#FBACAC', 'border-radius': '7px'})
+            $(this).css({border: '1px solid red', background: '#777777', 'border-radius': '7px'})
         }
         else{
             $(this).css({border: '1px solid green', background: 'white', 'border-radius': '7px'})
@@ -20,7 +31,7 @@ $(document).ready(function(){
     });
 
     $('#pass').blur(function(){
-        pass1 =$(this).val();
+       var pass1 =$(this).val();
         for (var i=0;i<=pass1.length+1;i++){
 
         if(((pass1[i])=='_') || ((pass1[i])=='-') || ((pass1[i])=="\\") ||((pass1[i])=='/') ||((pass1[i])=='|') || (pass1.length <6)) {
@@ -29,7 +40,7 @@ $(document).ready(function(){
             $('#pass').css({border: '1px solid red', width: '326px', height: '23px','border-radius': '7px'});}
              }});
     $('#pass1').blur(function(){
-        pass2 =$(this).val();
+      var  pass2 =$(this).val();
         if (pass1 != pass2){
             $('#popupWrapper').show();
             $('#pass').val('');
@@ -98,17 +109,4 @@ $(document).ready(function(){
     });
 
 
-    var login =  prompt('Login','');
-    if((login=='Admin')||(login == 'admin')){
-        var password = prompt('password','');
-        if(password=='123'){
-            alert('Грац')
-        }
-        else{
-            alert('Не правильний пароль')
-        }
-    }
-    else{
-        alert('Не правильний логін')
-    }
 });
