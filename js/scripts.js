@@ -28,7 +28,7 @@ $(document).ready(function(){
             $('#pass').val('');
             $('#pass').css({border: '1px solid red', width: '326px', height: '23px','border-radius': '7px'});}
              }});
-    
+
 
     $('#pass').focus(function(){
         $('.analiz').css('display', 'none');
