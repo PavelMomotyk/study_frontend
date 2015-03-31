@@ -2,17 +2,6 @@
 $(document).ready(function(){
 
 
-
-
-
-
-
-
-
-
-
-
-
     $("select").msDropDown();
 
 
