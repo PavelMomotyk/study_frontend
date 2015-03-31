@@ -1,6 +1,4 @@
-/**
- * Created by goba on 23.03.15.
- */
+
 $(document).ready(function(){
 
 
